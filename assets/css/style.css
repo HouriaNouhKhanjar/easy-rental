@@ -58,8 +58,9 @@ h3 {
 
 /* Navbar */
 #navbar {
-    background-color: var(--dark-color) !important;
-    border-bottom: 1px solid var(--primary-color);
+    background-color: rgba(75, 45, 13, .7) !important;
+    width: 100%;
+    z-index: 2;
 }
 
 #navbar .nav-item {
@@ -67,12 +68,13 @@ h3 {
 }
 
 #navbar .nav-item a {
-    color: var(--highlight-color) !important;
+    color: var(--primary-color);
 }
 
 #navbar .nav-item .active,
 #navbar .nav-link:hover {
     background-color: var(--primary-color);
+    color: var(--highlight-color);
 }
 
 #navbar .navbar-toggler,
@@ -99,7 +101,7 @@ h3 {
     justify-content: center;
     align-items: center;
     padding: 2rem;
-    background-color: rgb(0, 0, 0, .7);
+    background-color: rgba(0, 0, 0, .7);
 }
 .hero-content {
     text-align: center;
