@@ -40,6 +40,18 @@ h3 {
     color: var(--highlight-color);
 }
 
+.action-button-secondary {
+    background-color: transparent;
+    color: var(--secondary-color);
+    border-radius: 0;
+    border: 2px solid var(--secondary-color);
+}
+
+.action-button-secondary:hover {
+    background-color: var(--secondary-color);
+    color: var(--highlight-color);
+}
+
 /* Navbar */
 #navbar {
     background-color: var(--dark-color) !important;
@@ -89,14 +101,70 @@ h3 {
     text-align: center;
 }
 
+/* Tools section */
+#tools-list .section:nth-child(even){
+    background-color: var(--highlight-color);
+    color: var(--dark-color);
+}
+
+#tools-list .section:nth-child(odd){
+    background-color: var(--dark-color);
+    color: var(--highlight-color);
+}
+
+.tool-card {
+    border-radius: unset;
+}
+
+.tool-card .card-body {
+    background-color: var(--highlight-color);
+}
+
+.tool-card .card-img-top{
+    min-height: 280px;
+    max-height: 280px;
+}
+
+.tool-actions {
+    display: flex;
+    width: 100%;
+    padding-top: .5rem;
+    justify-content: center;
+    gap: 10px;
+}
+
+.tool-actions a {
+    flex-grow: 1;
+    text-align: center;
+}
+
+.tool-actions a button{
+    width: 100%;
+}
+
+.list-group-item{
+    background: transparent;
+}
+
+.available-icon {
+    color: green;
+}
+
+.location-icon{
+    color: var(--primary-color);
+}
+
+.price-icon{
+    color: var(--secondary-color);
+}
 
 /* layout */
-.row {
+footer .row {
     background: var(--dark-color);
     color: var(--highlight-color);
 }
 
-.row>div {
+footer .row>div {
     border: 1px solid var(--primary-color);
 }
 
@@ -118,4 +186,21 @@ h3 {
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {}
+@media only screen and (min-width: 992px) {
+    /* Global Styles */
+     .section {
+        padding: 0 3rem;
+     }
+     /* Navbar */
+     #navbar .container-fluid {
+        width: 80%;
+    }
+}
+
+/* Extra Large devices (laptops/desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    /* Global Styles */
+     .section {
+        padding: 0 7rem;
+     }
+}
