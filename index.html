@@ -27,9 +27,31 @@
 <body class="d-flex flex-column min-vh-100">
 
     <!-- Navbar -->
-    <div class="container">
-        nav item
-    </div>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" id="navbar">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="assets/images/easy-rental-logo-sm.png" alt="Easy Rental Logo" width="50" height="50"
+                    class="d-inline-block align-text-top">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fa-solid fa-circle-chevron-down"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#tools-section">Tools</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#footer-contact-us">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
     <!-- Header -->
     <header class="container">
@@ -40,7 +62,7 @@
 
     <!-- Main Container -->
     <main>
-        <section class="container">
+        <section class="container" id="tool-section">
             <div class="row">
                 <div class="col-12">tool list</div>
                 <div class="col-12 col-md-6 col-lg-3">tool card</div>
@@ -53,7 +75,7 @@
 
     <!-- Footer -->
     <footer class="mt-auto">
-        <div class="container">
+        <div class="container" id="footer-contact-us">
             <div class="row">
                 <div class="col-12 col-lg-6"> contact information </div>
                 <div class="col-12 col-lg-6"> contact form </div>

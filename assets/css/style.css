@@ -13,7 +13,6 @@
 }
 
 /* Global styles */
-
 body {
     font-family: var(--primary-font), sans-serif;
 }
@@ -27,6 +26,34 @@ h3 {
 
 .lead {
     color: var(--highlight-color);
+}
+
+/* Navbar */
+#navbar {
+    background-color: var(--dark-color) !important;
+}
+
+#navbar .nav-item {
+    text-align: center;
+}
+
+#navbar .nav-item a {
+    color: var(--highlight-color) !important;
+}
+
+#navbar .nav-item .active,
+#navbar .nav-link:hover {
+    background-color: var(--primary-color);
+}
+
+#navbar .navbar-toggler,
+#navbar .navbar-toggler:hover ,
+#navbar .navbar-toggler:focus {
+    border: none;
+}
+
+#navbar .navbar-toggler i {
+    color: var(--primary-color);
 }
 
 /* layout */
