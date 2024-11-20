@@ -1,4 +1,4 @@
-## USer Stories (orderd by MSC prencible)
+## User Stories (orderd by MSC prencible)
 *Note: We assume that suppliers can register and manage their tools through the site and this feature can be developed in the future, and the supplier communication form can also be replaced with a real time chat system.*
 
 ### User Story 1 (must-have)
