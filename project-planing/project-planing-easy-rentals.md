@@ -30,6 +30,35 @@ Discover a new way to save money, space, and time. Browse our tools, reserve onl
 
 There are also other stakeholders in this project but they will not be included in the first phase of construction of the project. Like Technical: Team (Developers, Designers, etc.), Logistics and Delivery Partners. Only the first user type included in the first phase.
 
+## Features (orderd by feature priority)
+1. **Tool Listing:**
+   
+   Enable user to see a list of tools with title, image, location, category, price, and availability.So the user can find tools based on location, availability, type, and price.
+
+
+2. **Booking and Reservation:**
+
+   A booking feature that allows users to reserve tools for specific dates.
+
+   
+3. **Contact support:**
+
+   When a technical problem occurs, such as a malfunction in the reservation process or in communicating with the supplier.
+
+  
+4. **Contact supplier:**
+
+   So users can communicate with the supplier about rentals, pickup, or delivery details.
+
+    
+5. **Reviews:**
+
+   Allow users to see reviews of tools and suppliers, fostering trust and transparency within the platform.
+   
+
+
+*There are other features that can be added to the project in the coming phases. Like: Apply search and filters to tools list, Secure Payment Gateway Integration, Supplier Registration and Tools Management, User Registration and Profile Management, Ratings, Order Tracking and Notifications, Related Tools Recommendations, Availability Calendar and Admin Dashboard.*
+
 ## Examples of tools that can be rent 
 Here are examples of tools that can be rented, along with categories that help organize them based on common use cases:
 
@@ -93,32 +122,3 @@ Here are examples of tools that can be rented, along with categories that help o
     - *Surveying Equipment (Tripods, GPS Systems):* For precise measurement in land surveying.
     - *Moisture Meters:* For checking moisture levels in wood or building materials.
 These categories help users quickly locate the tools they need, while also making it easier for the business to manage inventory and optimize user search functionality on the rental website.
-
-## Features (orderd by feature priority)
-1. **Tool Listing:**
-   
-   Enable user to see a list of tools with title, image, location, category, price, and availability.So the user can find tools based on location, availability, type, and price.
-
-
-2. **Booking and Reservation:**
-
-   A booking feature that allows users to reserve tools for specific dates.
-
-   
-3. **Contact support:**
-
-   When a technical problem occurs, such as a malfunction in the reservation process or in communicating with the supplier.
-
-  
-4. **Contact supplier:**
-
-   So users can communicate with the supplier about rentals, pickup, or delivery details.
-
-    
-5. **Reviews:**
-
-   Allow users to see reviews of tools and suppliers, fostering trust and transparency within the platform.
-   
-
-
-*There are other features that can be added to the project in the coming phases. Like: Apply search and filters to tools list, Secure Payment Gateway Integration, Supplier Registration and Tools Management, User Registration and Profile Management, Ratings, Order Tracking and Notifications, Related Tools Recommendations, Availability Calendar and Admin Dashboard.*

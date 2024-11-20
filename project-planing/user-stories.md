@@ -1,7 +1,18 @@
-## USer storys (orderd by MSC prencible)
+## USer Stories (orderd by MSC prencible)
 *Note: We assume that suppliers can register and manage their tools through the site and this feature can be developed in the future, and the supplier communication form can also be replaced with a real time chat system.*
 
 ### User Story 1 (must-have)
+- **Feature Title:** Easy Navigation
+- **User Story:** As a user, It can easly find and click link and buttons, so I can go to another page or section on the website.
+- **Acceptance Criteria:** 
+    - The user can easily navigate between pages and sections.
+
+- **Tasks:** 
+    - Add links to the main header menu that link to the sections.
+    - Add buttons that link to booking page, contact page.
+
+
+### User Story 2 (must-have)
 - **Feature Title:** Tool Listing
 - **User Story:** As a prospective customer, I want to see a list of rentable tools, so I can find the tool that fits my needs, time and budget.
 - **Acceptance Criteria:** 
@@ -10,26 +21,25 @@
     - The list is responsive and looks good on all main device sizes.
 
 - **Tasks:** 
-    - Add links on the navbar to to go to the tools list section.
+    - Add link on the navbar to to go to the tools list section.
     - Style the event list using Bootstrap.
     - Add some sample tool including tool title, image, category, availablity, price, location.
 
 
-### User Story 2 (must-have)
+### User Story 3 (must-have)
 - **Feature Title:** Booking proccess
 - **User Story:** As a customer, I want to rent a tool with a smooth booking process so that I can easily confirm my rental.
 - **Acceptance Criteria:** 
     - A prominent "Rent Now" button is visible, allowing customers to proceed with booking.
-    - Show booking form, allowing customer to enter personal information, select rental dates, and click book now.
+    - Show booking form, allowing customer to enter personal information, rental dates and period.
 
 - **Tasks:** 
     - Design and add "Rent Now" button that directs users to the rental booking process.
-    - Add rental requirements section that clearly states conditions like minimum duration and requirements.
     - Design and develop tool booking form.
     - Develop the expected response from the tool booking process.
     - Ensure Responsive Formatting so details display cleanly across devices.
 
-### User Story 3 (must-have)
+### User Story 4 (must-have)
 - **Feature Title:** Contact Support 
 - **User Story:** As a interested customer, I want to contact the support so I can ask question when a technical problem occurs .
 - **Acceptance Criteria:** 
@@ -42,7 +52,7 @@
     - Develop the expected response from the supplier contact.
     - Ensure Responsive Formatting so details display cleanly across devices.
 
-### User Story 4 (should-have)
+### User Story 5 (should-have)
 - **Feature Title:** Reviews
 - **User Story:** As a prospective customer, I want to see reviews from previous customers so that I can feel confident about renting the tool.
 - **Acceptance Criteria:** 
@@ -51,9 +61,9 @@
 
 - **Tasks:** 
     - Create an HTML section for reviews on the tool card page.
-    - Populate the section with sample reviews including rating and count of reviwers.
+    - Populate the section with rating and count of reviwers.
 
-### User Story 5 (could-have)
+### User Story 6 (could-have)
 - **Feature Title:** Contact Tool's Supplier 
 - **User Story:** As a interested customer, I want to contact the supplier so I can ask questions.
 - **Acceptance Criteria:** 
