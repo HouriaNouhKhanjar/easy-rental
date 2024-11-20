@@ -28,6 +28,18 @@ h3 {
     color: var(--highlight-color);
 }
 
+.action-button {
+    background-color: transparent;
+    color: var(--primary-color);
+    border-radius: 0;
+    border: 2px solid var(--primary-color);
+}
+
+.action-button:hover {
+    background-color: var(--primary-color);
+    color: var(--highlight-color);
+}
+
 /* Navbar */
 #navbar {
     background-color: var(--dark-color) !important;
@@ -56,6 +68,24 @@ h3 {
     color: var(--primary-color);
 }
 
+/* Header */
+.hero {
+    display: flex;
+    height: 75vh;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 2rem;
+    background: var(--dark-color) url("../images/hero-image.jpg") no-repeat center center/cover;
+}
+
+.hero-content {
+    width: 85%;
+    text-align: center;
+    padding: 2rem;
+    background-color: rgb(0, 0, 0, .6);
+}
+
+
 /* layout */
 .row {
     background: var(--dark-color);
@@ -65,3 +95,23 @@ h3 {
 .row>div {
     border: 1px solid var(--primary-color);
 }
+
+/* Brekpoint */
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    /* header */
+    .hero-content {
+        width: 80%;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    /* header */
+    .hero-content {
+        width: 60%;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
