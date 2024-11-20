@@ -8,7 +8,7 @@
     --primary-color: #F38B1D; /* beer */
     --secondary-color: #248ca2; /* Cyan */
     --highlight-color: #edefea; /* Alabaster */
-    --highlight-color-light: #7a9fc2; /* light blue */
+    --highlight-color-light: #c6c8c9; /* Chinese Silver */
     --dark-color: #222123; /* raisen black */ 
 }
 
@@ -18,10 +18,14 @@ body {
 }
 
 h1,
-h2,
-h3 {
+h2 {
     font-family: var(--secondary-font), sans-serif;
     color: var(--primary-color);
+}
+
+h3 {
+    font-size: larger;
+    color: var(--primary-color)!important;
 }
 
 .lead {
@@ -29,27 +33,27 @@ h3 {
 }
 
 .action-button {
-    background-color: transparent;
-    color: var(--primary-color);
+    background-color: var(--primary-color);
+    color: var(--highlight-color);
     border-radius: 0;
-    border: 2px solid var(--primary-color);
 }
 
 .action-button:hover {
-    background-color: var(--primary-color);
-    color: var(--highlight-color);
+    background-color: transparent;
+    color: var(--primary-color);
+    border: 2px solid var(--primary-color);
 }
 
 .action-button-secondary {
-    background-color: transparent;
-    color: var(--secondary-color);
+    background-color: var(--secondary-color);
+    color: var(--highlight-color);
     border-radius: 0;
-    border: 2px solid var(--secondary-color);
 }
 
 .action-button-secondary:hover {
-    background-color: var(--secondary-color);
-    color: var(--highlight-color);
+    background-color: transparent;
+    color: var(--secondary-color);
+    border: 2px solid var(--secondary-color);
 }
 
 /* Navbar */
@@ -103,7 +107,7 @@ h3 {
 
 /* Tools section */
 #tools-list .section:nth-child(even){
-    background-color: var(--highlight-color);
+    background-color: var(--highlight-color-light);
     color: var(--dark-color);
 }
 
@@ -121,8 +125,14 @@ h3 {
 }
 
 .tool-card .card-img-top{
-    min-height: 280px;
+    min-height: 360px;
     max-height: 280px;
+    border-radius: unset;
+}
+
+.tool-card .card-title {
+    line-height: 25px;
+    height: 60px;
 }
 
 .tool-actions {
