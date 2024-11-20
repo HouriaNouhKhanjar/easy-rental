@@ -28,3 +28,13 @@ h3 {
 .lead {
     color: var(--highlight-color);
 }
+
+/* layout */
+.row {
+    background: var(--dark-color);
+    color: var(--highlight-color);
+}
+
+.row>div {
+    border: 1px solid var(--primary-color);
+}
