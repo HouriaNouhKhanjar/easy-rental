@@ -102,7 +102,7 @@ h3 {
     justify-content: center;
     align-items: center;
     padding: 2rem;
-    background-color: rgba(0, 0, 0, .49);
+    background-color: rgba(0, 0, 0, .59);
 }
 
 .hero-content {
@@ -174,14 +174,27 @@ h3 {
     color: var(--secondary-color);
 }
 
-/* layout */
-footer .row {
-    background: var(--dark-color);
+/* footer */
+footer {
+    background: var(--dark-color) url("../images/footer2.jpg") no-repeat center/cover;
     color: var(--highlight-color);
 }
+#footer-contact-us {
+    background-color: rgba(0, 0, 0, .7);
+}
 
-footer .row>div {
-    border: 1px solid var(--primary-color);
+#footer-contact-us .row{
+    padding: 2rem;
+}
+
+#footer-contact-us .social-media a {
+    color: var(--highlight-color);
+    font-size: large;
+    margin: 1rem;
+}
+
+#footer-contact-us .social-media a:hover {
+    color: var(--primary-color);
 }
 
 /* Brekpoint */
@@ -199,6 +212,12 @@ footer .row>div {
     .hero-content {
         width: 60%;
     }
+    /* footer */
+    #footer-contact-us .row{
+        width: 90%;
+        margin: auto;
+        padding: 3rem;
+    }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -211,6 +230,11 @@ footer .row>div {
      #navbar .container-fluid {
         width: 80%;
     }
+      /* footer */
+      #footer-contact-us .row{
+        width: 85%;
+        padding: 4rem;
+    }
 }
 
 /* Extra Large devices (laptops/desktops, 1200px and up) */
@@ -219,4 +243,9 @@ footer .row>div {
      .section {
         padding: 0 7rem;
      }
+      /* footer */
+      #footer-contact-us .row{
+        width: 75%;
+        padding: 5rem;
+    }
 }
