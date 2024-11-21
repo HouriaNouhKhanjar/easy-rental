@@ -8,7 +8,7 @@
     --primary-color: #F38B1D; /* beer */
     --secondary-color: #248ca2; /* Cyan */
     --highlight-color: #edefea; /* Alabaster */
-    --highlight-color-light: #c6c8c9; /* Chinese Silver */
+    --highlight-color-light: #dddfd9; /* Quill Gray */
     --dark-color: #222123; /* raisen black */ 
 }
 
@@ -58,7 +58,8 @@ h3 {
 
 /* Navbar */
 #navbar {
-    background-color: rgba(75, 45, 13, .7) !important;
+    background-color: rgba(75, 45, 13, .83) !important;
+    box-shadow: 2px 3px 4px rgb(0 0 0 / 29%);
     width: 100%;
     z-index: 2;
 }
@@ -91,7 +92,7 @@ h3 {
 .hero {
     height: 93vh;
     padding: unset;
-    background: var(--dark-color) url("../images/hero-image.jpg") no-repeat center center/cover;
+    background: var(--dark-color) url("../images/hero5.jpg") no-repeat bottom/cover;
 }
 
 .hero-container {
@@ -101,8 +102,9 @@ h3 {
     justify-content: center;
     align-items: center;
     padding: 2rem;
-    background-color: rgba(0, 0, 0, .7);
+    background-color: rgba(0, 0, 0, .49);
 }
+
 .hero-content {
     text-align: center;
 }
@@ -120,6 +122,7 @@ h3 {
 
 .tool-card {
     border-radius: unset;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.15);
 }
 
 .tool-card .card-body {
@@ -127,14 +130,14 @@ h3 {
 }
 
 .tool-card .card-img-top{
-    min-height: 360px;
-    max-height: 280px;
+    min-height: 240px;
+    max-height: 240px;
     border-radius: unset;
 }
 
 .tool-card .card-title {
     line-height: 25px;
-    height: 60px;
+    height: 40px;
 }
 
 .tool-actions {
@@ -156,6 +159,7 @@ h3 {
 
 .list-group-item{
     background: transparent;
+    padding: .5rem 1rem !important;
 }
 
 .available-icon {
