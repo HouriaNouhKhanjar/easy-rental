@@ -97,7 +97,6 @@ h3 {
 .hero {
     height: 93vh;
     padding: unset;
-    background: var(--dark-color) url("../images/hero5.jpg") no-repeat bottom/cover;
 }
 
 .hero-container {
@@ -112,6 +111,22 @@ h3 {
 
 .hero-content {
     text-align: center;
+}
+
+/* Homepage header */
+#homepage-header .hero {
+    background: var(--dark-color) url("../images/hero5.jpg") no-repeat bottom/cover;
+}
+
+/* reponse page header */
+#reponse-header .hero {
+    background: var(--dark-color);
+}
+
+#reponse-header .response-icon {
+    color: var(--highlight-color);
+    font-size: 14rem;
+    padding: 1rem;
 }
 
 /* Tools section */
@@ -203,17 +218,17 @@ footer {
     color: var(--primary-color);
 }
 
-footer .contact-form {
+#footer-contact-us .contact-form {
     background: rgba(237, 239, 234, .28);
     box-shadow: 2px 2px 4px rgba(237, 239, 234, 0.15);
-    padding: 2rem;
+    padding: 1rem;
 }
 
-footer .contact-form h3 {
+#footer-contact-us .contact-form h3 {
     color: var(--highlight-color) !important;
 }
 
-footer .contact-form .form-control {
+#footer-contact-us .contact-form .form-control {
     background: transparent;
     border: none;
     border-bottom: 1px solid var(--highlight-color);
@@ -222,21 +237,21 @@ footer .contact-form .form-control {
 }
 
 /* edit placeholder color this code was taken from stackoverflow  */
-footer .contact-form .form-control::-webkit-input-placeholder {
+#footer-contact-us .contact-form .form-control::-webkit-input-placeholder {
     color: var(--highlight-color) !important;
 }
 
-footer .contact-form .form-control:-moz-placeholder {
+#footer-contact-us .contact-form .form-control:-moz-placeholder {
     /* Firefox 18- */
     color: var(--highlight-color)  !important;
 }
 
-footer .contact-form .form-control::-moz-placeholder {
+#footer-contact-us .contact-form .form-control::-moz-placeholder {
     /* Firefox 19+ */
     color: var(--highlight-color) !important;
 }
 
-footer .contact-form .form-control:-ms-input-placeholder {
+#footer-contact-us .contact-form .form-control:-ms-input-placeholder {
     color: var(--highlight-color)  !important;
 }
 
@@ -283,6 +298,10 @@ footer .contact-form .form-control:-ms-input-placeholder {
     #footer-contact-us .row {
         width: 85%;
         padding: 4rem;
+    }
+
+    #footer-contact-us .contact-form {
+        padding: 2rem;
     }
 }
 
