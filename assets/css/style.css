@@ -5,11 +5,16 @@
 :root {
     --primary-font: "Oswald", sans-serif;
     --secondary-font: "Bebas Neue", cursive;
-    --primary-color: #F38B1D; /* beer */
-    --secondary-color: #248ca2; /* Cyan */
-    --highlight-color: #edefea; /* Alabaster */
-    --highlight-color-light: #dddfd9; /* Quill Gray */
-    --dark-color: #222123; /* raisen black */ 
+    --primary-color: #F38B1D;
+    /* beer */
+    --secondary-color: #248ca2;
+    /* Cyan */
+    --highlight-color: #edefea;
+    /* Alabaster */
+    --highlight-color-light: #dddfd9;
+    /* Quill Gray */
+    --dark-color: #222123;
+    /* raisen black */
 }
 
 /* Global styles */
@@ -25,7 +30,7 @@ h2 {
 
 h3 {
     font-size: larger;
-    color: var(--primary-color)!important;
+    color: var(--primary-color) !important;
 }
 
 .lead {
@@ -79,7 +84,7 @@ h3 {
 }
 
 #navbar .navbar-toggler,
-#navbar .navbar-toggler:hover ,
+#navbar .navbar-toggler:hover,
 #navbar .navbar-toggler:focus {
     border: none;
 }
@@ -110,12 +115,12 @@ h3 {
 }
 
 /* Tools section */
-#tools-list .section:nth-child(even){
+#tools-list .section:nth-child(even) {
     background-color: var(--highlight-color-light);
     color: var(--dark-color);
 }
 
-#tools-list .section:nth-child(odd){
+#tools-list .section:nth-child(odd) {
     background-color: var(--dark-color);
     color: var(--highlight-color);
 }
@@ -129,7 +134,7 @@ h3 {
     background-color: var(--highlight-color);
 }
 
-.tool-card .card-img-top{
+.tool-card .card-img-top {
     min-height: 240px;
     max-height: 240px;
     border-radius: unset;
@@ -153,11 +158,11 @@ h3 {
     text-align: center;
 }
 
-.tool-actions a button{
+.tool-actions a button {
     width: 100%;
 }
 
-.list-group-item{
+.list-group-item {
     background: transparent;
     padding: .5rem 1rem !important;
 }
@@ -166,11 +171,11 @@ h3 {
     color: green;
 }
 
-.location-icon{
+.location-icon {
     color: var(--primary-color);
 }
 
-.price-icon{
+.price-icon {
     color: var(--secondary-color);
 }
 
@@ -179,11 +184,12 @@ footer {
     background: var(--dark-color) url("../images/footer2.jpg") no-repeat center/cover;
     color: var(--highlight-color);
 }
+
 #footer-contact-us {
-    background-color: rgba(0, 0, 0, .7);
+    background-color: rgba(0, 0, 0, .8);
 }
 
-#footer-contact-us .row{
+#footer-contact-us .row {
     padding: 2rem;
 }
 
@@ -197,9 +203,47 @@ footer {
     color: var(--primary-color);
 }
 
+footer .contact-form {
+    background: rgba(237, 239, 234, .28);
+    box-shadow: 2px 2px 4px rgba(237, 239, 234, 0.15);
+    padding: 2rem;
+}
+
+footer .contact-form h3 {
+    color: var(--highlight-color) !important;
+}
+
+footer .contact-form .form-control {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid var(--highlight-color);
+    border-radius: unset;
+    color: var(--highlight-color);
+}
+
+/* edit placeholder color this code was taken from stackoverflow  */
+footer .contact-form .form-control::-webkit-input-placeholder {
+    color: var(--highlight-color) !important;
+}
+
+footer .contact-form .form-control:-moz-placeholder {
+    /* Firefox 18- */
+    color: var(--highlight-color)  !important;
+}
+
+footer .contact-form .form-control::-moz-placeholder {
+    /* Firefox 19+ */
+    color: var(--highlight-color) !important;
+}
+
+footer .contact-form .form-control:-ms-input-placeholder {
+    color: var(--highlight-color)  !important;
+}
+
 /* Brekpoint */
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
+
     /* header */
     .hero-content {
         width: 80%;
@@ -208,12 +252,14 @@ footer {
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
+
     /* header */
     .hero-content {
         width: 60%;
     }
+
     /* footer */
-    #footer-contact-us .row{
+    #footer-contact-us .row {
         width: 90%;
         margin: auto;
         padding: 3rem;
@@ -222,16 +268,19 @@ footer {
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
+
     /* Global Styles */
-     .section {
+    .section {
         padding: 0 3rem;
-     }
-     /* Navbar */
-     #navbar .container-fluid {
+    }
+
+    /* Navbar */
+    #navbar .container-fluid {
         width: 80%;
     }
-      /* footer */
-      #footer-contact-us .row{
+
+    /* footer */
+    #footer-contact-us .row {
         width: 85%;
         padding: 4rem;
     }
@@ -239,12 +288,14 @@ footer {
 
 /* Extra Large devices (laptops/desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
+
     /* Global Styles */
-     .section {
+    .section {
         padding: 0 7rem;
-     }
-      /* footer */
-      #footer-contact-us .row{
+    }
+
+    /* footer */
+    #footer-contact-us .row {
         width: 75%;
         padding: 5rem;
     }
