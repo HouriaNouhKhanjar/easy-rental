@@ -168,29 +168,29 @@ h3 {
     gap: 10px;
 }
 
-.tool-actions a {
+#tools-list .tool-actions a {
     flex-grow: 1;
     text-align: center;
 }
 
-.tool-actions a button {
+#tools-list .tool-actions a button {
     width: 100%;
 }
 
-.list-group-item {
+#tools-list .tool-card .list-group-item {
     background: transparent;
     padding: .5rem 1rem !important;
 }
 
-.available-icon {
+#tools-list .tool-card .available-icon {
     color: green;
 }
 
-.location-icon {
+#tools-list .tool-card .location-icon {
     color: var(--primary-color);
 }
 
-.price-icon {
+#tools-list .tool-card .price-icon {
     color: var(--secondary-color);
 }
 
@@ -204,7 +204,7 @@ footer {
     background-color: rgba(0, 0, 0, .8);
 }
 
-#footer-contact-us .row {
+#footer-contact-us .footer-container {
     padding: 2rem;
 }
 
@@ -236,25 +236,6 @@ footer {
     color: var(--highlight-color);
 }
 
-/* edit placeholder color this code was taken from stackoverflow  */
-#footer-contact-us .contact-form .form-control::-webkit-input-placeholder {
-    color: var(--highlight-color) !important;
-}
-
-#footer-contact-us .contact-form .form-control:-moz-placeholder {
-    /* Firefox 18- */
-    color: var(--highlight-color)  !important;
-}
-
-#footer-contact-us .contact-form .form-control::-moz-placeholder {
-    /* Firefox 19+ */
-    color: var(--highlight-color) !important;
-}
-
-#footer-contact-us .contact-form .form-control:-ms-input-placeholder {
-    color: var(--highlight-color)  !important;
-}
-
 /* Brekpoint */
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
@@ -274,7 +255,7 @@ footer {
     }
 
     /* footer */
-    #footer-contact-us .row {
+    #footer-contact-us .footer-container {
         width: 90%;
         margin: auto;
         padding: 3rem;
@@ -290,12 +271,12 @@ footer {
     }
 
     /* Navbar */
-    #navbar .container-fluid {
+    #navbar .navbar-container {
         width: 80%;
     }
 
     /* footer */
-    #footer-contact-us .row {
+    #footer-contact-us .footer-container {
         width: 85%;
         padding: 4rem;
     }
@@ -314,7 +295,7 @@ footer {
     }
 
     /* footer */
-    #footer-contact-us .row {
+    #footer-contact-us .footer-container {
         width: 75%;
         padding: 5rem;
     }
