@@ -57,7 +57,7 @@
                     <div class="hero-content">
                         <i class="fa-regular fa-thumbs-up response-icon"></i>
                         <h1 class="display-2">Your Message sent successfully</h1>
-                        <a href="index.html"  aria-label="go homepage">
+                        <a href="index.html" aria-label="go homepage">
                             <button type="button" class="btn btn-lg action-button">Return To Home Page</button>
                         </a>
                     </div>
@@ -69,12 +69,18 @@
     <!-- Footer -->
     <footer class="mt-auto">
         <div class="container-fluid" id="footer-contact-us">
-            <div class="row  footer-container">
+            <div class="row footer-container">
                 <div class="col-12 col-lg-6 my-2">
                     <h2 class="display-5 py-3">Get In Touch</h2>
-                    <p>Phone Number: +49 1722641331</p>
-                    <p>Fax: +49 1854236978</p>
-                    <p>Email: info@easy-rental.de</p>
+                    <p>Phone Number:<a href="tel:+491722641331" title="Call customer service at +49 1722641331"
+                            aria-label="Dial +49 1722641331" class="support-contact" target="_blank"
+                            rel="noopener noreferrer">+49 1722641331</a></p>
+                    <p>Fax: <a href="fax:+491854236978" title="Send a fax to +49 1854236978"
+                            aria-label="Send a fax to +49 1854236978" class="support-contact" target="_blank"
+                            rel="noopener noreferrer">+49 1854236978</a></p>
+                    <p>Email: <a href="mailto:info@easy-rental.de" title="Send a email to info@easy-rental.de"
+                            aria-label="Send a email to info@easy-rental.de" class="support-contact" target="_blank"
+                            rel="noopener noreferrer">info@easy-rental.de</a></p>
                     <div class="social-media">
                         <a href="https://www.instagram.com" target="_blank"
                             aria-label="Visit our Instagram page (opens in a new tab)" rel="noopener"><i
@@ -91,19 +97,23 @@
                     <form action="response-page.html" method="GET" class="contact-form">
                         <h3 class="display-6">Do you have questions? Feel free to ask us</h3>
                         <div class="my-4">
-                            <label for="exampleFormControlInput2" class="form-label">Full Name</label>
-                            <input type="text" class="form-control" id="exampleFormControlInput2" required>
+                            <label for="user-fullname" class="form-label">Full Name</label>
+                            <input type="text" class="form-control" name="user-fullname" id="user-fullname" required>
                         </div>
                         <div class="my-4">
-                            <label for="exampleFormControlInput1" class="form-label">Email address</label>
-                            <input type="email" class="form-control" id="exampleFormControlInput1" required>
+                            <label for="user-email-address" class="form-label">Email address</label>
+                            <input type="email" class="form-control" name="user-email-address" id="user-email-address"
+                                required>
                         </div>
                         <div class="my-4">
-                            <label for="exampleFormControlTextarea1" class="form-label">Message</label>
-                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                            <label for="user-message" class="form-label">Message</label>
+                            <textarea class="form-control" name="user-message" id="user-message" rows="3"
                                 required></textarea>
                         </div>
-                        <button type="submit" class="btn action-button">Send</button>
+                        <div class="col-12 d-flex justify-content-end">
+                            <button type="submit" class="btn action-button">Send</button>
+                        </div>
+
                     </form>
                 </div>
             </div>

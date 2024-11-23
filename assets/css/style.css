@@ -219,6 +219,12 @@ footer {
     padding: 2rem;
 }
 
+#footer-contact-us .support-contact {
+    text-decoration: unset;
+    color: var(--highlight-color);
+    padding-left: .5rem;
+}
+
 #footer-contact-us .social-media a {
     color: var(--highlight-color);
     font-size: large;
