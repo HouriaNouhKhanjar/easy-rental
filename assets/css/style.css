@@ -113,12 +113,12 @@ h3 {
     text-align: center;
 }
 
-/* Homepage header */
+/* Homepage Header */
 #homepage-header .hero {
-    background: var(--dark-color) url("../images/hero5.jpg") no-repeat bottom/cover;
+    background: var(--dark-color) url("../images/hero.jpg") no-repeat bottom/cover;
 }
 
-/* reponse page header */
+/* Reponse Page Header */
 #reponse-header .hero {
     background: var(--dark-color);
 }
@@ -127,6 +127,11 @@ h3 {
     color: var(--highlight-color);
     font-size: 14rem;
     padding: 1rem;
+}
+
+/* Booking Header */
+#booking-header .hero {
+    background: var(--dark-color) url("../images/booking-hero.jpg") no-repeat bottom/cover;
 }
 
 /* Tools section */
@@ -207,7 +212,7 @@ h3 {
 
 /* Footer */
 footer {
-    background: var(--dark-color) url("../images/footer2.jpg") no-repeat center/cover;
+    background: var(--dark-color) url("../images/footer.jpg") no-repeat center/cover;
     color: var(--highlight-color);
 }
 
@@ -293,6 +298,10 @@ footer {
     }
 
     /* Rental Form */
+    #rental-form {
+        padding: 0 1rem;
+    }
+
     #rental-form .user-information {
         border-right: 2px solid var(--dark-color);
     }
@@ -314,6 +323,11 @@ footer {
     /* Global Styles */
     .section {
         padding: 0 7rem;
+    }
+
+    /* Booking Form */
+    #rental-form {
+        padding: 0 3rem;
     }
 
     /* footer */
