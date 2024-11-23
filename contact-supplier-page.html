@@ -48,23 +48,62 @@
             </div>
         </div>
     </nav>
-
     <!-- Header -->
     <header class="container-fluid">
-        <div class="row" id="reponse-header">
+        <div class="row" id="contact-supplier-header">
             <div class="col-12 hero">
                 <div class="hero-container">
                     <div class="hero-content">
-                        <i class="fa-regular fa-thumbs-up response-icon"></i>
-                        <h1 class="display-2">Your Request sent successfully</h1>
-                        <a href="index.html" aria-label="go homepage">
-                            <button type="button" class="btn btn-lg action-button">Return To Home Page</button>
+                        <h1 class="display-2">Contact Tool's Supplier</h1>
+                        <p class="lead">If you have any questions about the tool and want more clarification or
+                            questions about receiving and returning, you can contact the owner of the
+                            tool through the following form.
+                        </p>
+                        <a href="#contact-supplier-form" aria-label="go to rental form">
+                            <button type="button" class="btn btn-lg action-button">Continue to Contact form</button>
                         </a>
                     </div>
                 </div>
             </div>
         </div>
     </header>
+
+    <!-- Main Container -->
+    <main>
+        <section class="container section" id="contact-supplier-form">
+            <form action="response-page.html" method="GET" class="contact-supplier-form">
+                <div class="row contact-supplier-container">
+                    <div class="col-12 text-center my-3">
+                        <h2 class="display-3">Supplier Contact Form</h2>
+                    </div>
+                    <div class="col-12 col-lg-6 p-3">
+                        <label for="username" class="form-label">Full Name</label>
+                        <input type="text" class="form-control" name="username" id="username" required>
+                    </div>
+                    <div class="col-12 col-lg-6 p-3">
+                        <label for="user-email" class="form-label">Email address</label>
+                        <input type="email" class="form-control" name="user-email" id="user-email" required>
+                    </div>
+                    <div class="col-12 col-lg-6 p-3">
+                        <label for="phonenumber" class="form-label">Phone Number</label>
+                        <input type="number" class="form-control" name="phonenumber" id="phonenumber" required>
+                    </div>
+                    <div class="col-12 col-lg-6 p-3">
+                        <label for="tool-name" class="form-label">Tool Name</label>
+                        <input type="text" class="form-control" name="tool-name" id="tool-name" required>
+                    </div>
+                    <div class="col-12 p-3">
+                        <label for="user-question" class="form-label">Question</label>
+                        <textarea class="form-control" name="user-question" id="user-question" rows="3"
+                            required></textarea>
+                    </div>
+                    <div class="col-12 d-flex justify-content-end my-3">
+                        <button type="submit" class="btn btn-lg action-button">Send</button>
+                    </div>
+                </div>
+            </form>
+        </section>
+    </main>
 
     <!-- Footer -->
     <footer class="mt-auto">
