@@ -161,8 +161,18 @@ h3 {
 }
 
 .tool-card .card-title {
-    line-height: 25px;
-    height: 40px;
+    font-size: 1rem;
+    line-height: 20px;
+    padding-right: .5rem;
+}
+
+.tool-card .user-review {
+    color: #ffc107;
+    font-size: .8rem;
+}
+
+.tool-card .list-group {
+    font-size: .9rem;
 }
 
 .tool-actions {
@@ -184,7 +194,7 @@ h3 {
 
 #tools-list .tool-card .list-group-item {
     background: transparent;
-    padding: .5rem 1rem !important;
+    padding: .3rem 1rem !important;
 }
 
 #tools-list .tool-card .available-icon {
@@ -276,6 +286,13 @@ footer {
         width: 60%;
     }
 
+    /* Tools */
+    .tool-card .card-title {
+        height: 50px;
+        line-height: 20px;
+        font-size: 1.05rem;
+    }
+
     /* footer */
     #footer-contact-us .footer-container {
         width: 90%;
@@ -295,6 +312,12 @@ footer {
     /* Navbar */
     #navbar .navbar-container {
         width: 80%;
+    }
+
+    /* Tools */
+    .tool-card .card-title {
+        font-size: 1.05rem;
+        line-height: 22px;
     }
 
     /* Rental Form */
@@ -322,7 +345,14 @@ footer {
 
     /* Global Styles */
     .section {
-        padding: 0 7rem;
+        padding: 0 5rem;
+    }
+
+    /* Tools */
+    .tool-card .card-title {
+        height: 66px;
+        line-height: 21px;
+        font-size: 1.07rem;
     }
 
     /* Booking Form */
