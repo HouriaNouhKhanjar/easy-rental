@@ -17,6 +17,18 @@
     /* raisen black */
 }
 
+@keyframes animate-fadein {
+    from {
+        transform: translateY(100px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
 /* Global styles */
 body {
     font-family: var(--primary-font), sans-serif;
@@ -59,6 +71,11 @@ h3 {
     background-color: transparent;
     color: var(--secondary-color);
     border: 2px solid var(--secondary-color);
+}
+
+.fadein {
+    transform: translateY(100px);
+    animation: animate-fadein 3000ms 0ms forwards;
 }
 
 /* Navbar */
