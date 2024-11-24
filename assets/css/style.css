@@ -80,7 +80,7 @@ h3 {
 
 /* Navbar */
 #navbar {
-    background-color: rgba(75, 45, 13, .83) !important;
+    background-color: rgba(12, 11, 9, .83) !important;
     box-shadow: 2px 3px 4px rgb(0 0 0 / 29%);
     width: 100%;
     z-index: 2;
@@ -88,6 +88,7 @@ h3 {
 
 #navbar .nav-item {
     text-align: center;
+    font-size: larger;
 }
 
 #navbar .nav-item a {
@@ -123,7 +124,7 @@ h3 {
     justify-content: center;
     align-items: center;
     padding: 2rem;
-    background-color: rgba(0, 0, 0, .59);
+    background-color: rgba(0, 0, 0, .76);
 }
 
 .hero-content {
@@ -142,7 +143,7 @@ h3 {
 
 /* Reponse Page Header */
 #reponse-header .hero {
-    background: var(--dark-color);
+    background: var(--highlight-color);
 }
 
 #reponse-header .response-icon {
