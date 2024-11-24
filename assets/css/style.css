@@ -130,14 +130,9 @@ h3 {
     background: linear-gradient(0deg, rgba(19, 11, 9, 1), rgba(13, 0, 9, 0.3)), url("../images/hero.jpg") no-repeat center/cover;
 }
 
-/* Contact Supplier Header */
-#contact-supplier-header .hero {
-    background: var(--dark-color) url("../images/contact-supplier-hero.jpg") no-repeat bottom/cover;
-}
-
 /* Reponse Page Header */
 #reponse-header .hero {
-    background: var(--highlight-color);
+    background: #59575b;
 }
 
 #reponse-header .response-icon {
@@ -148,7 +143,14 @@ h3 {
 
 /* Booking Header */
 #booking-header .hero {
-    background: var(--dark-color) url("../images/booking-hero.jpg") no-repeat bottom/cover;
+    background-color: var(--dark-color);
+    background: linear-gradient(20deg, rgba(19, 11, 9, 1), rgba(13, 0, 9, 0.3)),  url("../images/booking-hero.jpg") no-repeat center/cover;
+}
+
+/* Contact Supplier Header */
+#contact-supplier-header .hero {
+    background-color: var(--dark-color);
+    background: linear-gradient(20deg, rgba(19, 11, 9, 1), rgba(13, 0, 9, 0.3)), url("../images/contact-supplier-hero.jpg") no-repeat bottom/cover;
 }
 
 /* Tools section */
