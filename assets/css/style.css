@@ -5,13 +5,13 @@
 :root {
     --primary-font: "Oswald", sans-serif;
     --secondary-font: "Bebas Neue", cursive;
-    --primary-color: #F38B1D;
+    --primary-color: #ff7800;
     /* beer */
-    --secondary-color: #248ca2;
+    --secondary-color: #26d9ff;
     /* Cyan */
     --highlight-color: #edefea;
     /* Alabaster */
-    --highlight-color-light: #dddfd9;
+    --highlight-color-light: #fffbf8;
     /* Quill Gray */
     --dark-color: #222123;
     /* raisen black */
@@ -42,7 +42,6 @@ h2 {
 
 h3 {
     font-size: larger;
-    color: var(--primary-color) !important;
 }
 
 .lead {
@@ -50,27 +49,23 @@ h3 {
 }
 
 .action-button {
-    background-color: var(--primary-color);
-    color: var(--highlight-color);
-    border-radius: 0;
-}
-
-.action-button:hover {
     background-color: transparent;
-    color: var(--primary-color);
     border: 2px solid var(--primary-color);
+    color: var(--primary-color);
+    border-radius: 0;
 }
 
 .action-button-secondary {
-    background-color: var(--secondary-color);
-    color: var(--highlight-color);
-    border-radius: 0;
-}
-
-.action-button-secondary:hover {
     background-color: transparent;
     color: var(--secondary-color);
     border: 2px solid var(--secondary-color);
+    border-radius: 0;
+}
+
+.action-button:hover,
+.action-button-secondary:hover  {
+    color: var(--highlight-color);
+    border: 2px solid var(--highlight-color);
 }
 
 .fadein {
@@ -80,7 +75,7 @@ h3 {
 
 /* Navbar */
 #navbar {
-    background-color: rgba(12, 11, 9, .83) !important;
+    background-color: var(--dark-color)!important;
     box-shadow: 2px 3px 4px rgb(0 0 0 / 29%);
     width: 100%;
     z-index: 2;
@@ -97,8 +92,7 @@ h3 {
 
 #navbar .nav-item .active,
 #navbar .nav-link:hover {
-    background-color: var(--primary-color);
-    color: var(--highlight-color);
+    border:  2px solid var(--primary-color);
 }
 
 #navbar .navbar-toggler,
@@ -113,7 +107,7 @@ h3 {
 
 /* Header */
 .hero {
-    height: 93vh;
+    height: 75vh;
     padding: unset;
 }
 
@@ -133,7 +127,7 @@ h3 {
 
 /* Homepage Header */
 #homepage-header .hero {
-    background: var(--dark-color) url("../images/hero.jpg") no-repeat bottom/cover;
+    background: var(--dark-color) url("../images/hero2.jpg") no-repeat bottom/cover;
 }
 
 /* Contact Supplier Header */
@@ -171,15 +165,17 @@ h3 {
 .tool-card {
     border-radius: unset;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.15);
+    border-color: black;
 }
 
 .tool-card .card-body {
-    background-color: var(--highlight-color);
+    background-color: black;
 }
 
 .tool-card .card-img-top {
-    min-height: 240px;
-    max-height: 240px;
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
     border-radius: unset;
 }
 
@@ -187,11 +183,16 @@ h3 {
     font-size: 1rem;
     line-height: 20px;
     padding-right: .5rem;
+    color: var(--highlight-color);
 }
 
 .tool-card .user-review {
     color: #ffc107;
     font-size: .8rem;
+}
+
+.tool-card .user-review small {
+    color: var(--highlight-color)
 }
 
 .tool-card .list-group {
@@ -218,10 +219,11 @@ h3 {
 #tools-list .tool-card .list-group-item {
     background: transparent;
     padding: .3rem 1rem !important;
+    color: var(--highlight-color);
 }
 
 #tools-list .tool-card .available-icon {
-    color: green;
+    color: #00ff00;
 }
 
 #tools-list .tool-card .location-icon {
