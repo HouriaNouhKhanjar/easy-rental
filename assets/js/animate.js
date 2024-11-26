@@ -19,11 +19,11 @@ document.addEventListener('DOMContentLoaded', function () {
             var elementBottomPosition = elementTopPosition + elementHeight;
 
             // Check if the element is in the viewport
-            if ((elementBottomPosition >= windowTopPosition) && 
+            if ((elementBottomPosition >= windowTopPosition) &&
                 (elementTopPosition <= windowBottomPosition)) {
                 element.classList.add(animateClass);
-            } else if ((elementBottomPosition >= windowTopPosition) && 
-            (elementTopPosition <= windowBottomPosition) && element.classList.contains(animateClass)) {
+            } else if ((elementBottomPosition >= windowTopPosition) &&
+                (elementTopPosition <= windowBottomPosition) && element.classList.contains(animateClass)) {
                 element.classList.remove(animateElmentClass);
                 element.classList.remove(animateClass);
             }
