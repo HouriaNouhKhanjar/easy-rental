@@ -107,7 +107,7 @@ h3 {
 
 /* Header */
 .hero {
-    height: 75vh;
+    height: 90vh;
     padding: unset;
 }
 
@@ -137,7 +137,7 @@ h3 {
 
 #reponse-header .response-icon {
     color: var(--highlight-color);
-    font-size: 14rem;
+    font-size: 10rem;
     padding: 1rem;
 }
 
