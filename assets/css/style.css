@@ -92,7 +92,7 @@ h3 {
 
 #navbar .nav-item .active,
 #navbar .nav-link:hover {
-    border: 2px solid var(--primary-color);
+    text-decoration: underline;
 }
 
 #navbar .navbar-toggler,
