@@ -99,6 +99,7 @@ h3 {
 #navbar .navbar-toggler:hover,
 #navbar .navbar-toggler:focus {
     border: none;
+    box-shadow: unset;
 }
 
 #navbar .navbar-toggler i {
