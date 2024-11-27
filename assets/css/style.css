@@ -128,7 +128,7 @@ h3 {
 /* Homepage Header */
 #homepage-header .hero {
     background-color: var(--dark-color);
-    background: linear-gradient(0deg, rgba(19, 11, 9, 1), rgba(13, 0, 9, 0.5)), url("../images/hero.jpg") no-repeat center/cover;
+    background: linear-gradient(0deg, rgba(19, 11, 9, 1), rgba(13, 0, 9, 0.5)), url("../images/hero.webp") no-repeat center/cover;
 }
 
 /* Reponse Page Header */
@@ -145,13 +145,13 @@ h3 {
 /* Booking Header */
 #booking-header .hero {
     background-color: var(--dark-color);
-    background: linear-gradient(20deg, rgba(19, 11, 9, 1), rgba(13, 0, 9, 0.4)), url("../images/booking-hero.jpg") no-repeat center/cover;
+    background: linear-gradient(20deg, rgba(19, 11, 9, 1), rgba(13, 0, 9, 0.4)), url("../images/booking-hero.webp") no-repeat center/cover;
 }
 
 /* Contact Supplier Header */
 #contact-supplier-header .hero {
     background-color: var(--dark-color);
-    background: linear-gradient(19deg, rgba(19, 11, 9, 1), rgba(13, 0, 9, 0.6)), url("../images/contact-supplier-hero.jpg") no-repeat center/cover;
+    background: linear-gradient(19deg, rgba(19, 11, 9, 1), rgba(13, 0, 9, 0.6)), url("../images/contact-supplier-hero.webp") no-repeat center/cover;
 }
 
 /* Tools section */
@@ -257,7 +257,7 @@ h3 {
 /* Footer */
 footer {
     background-color: var(--dark-color);
-    background: linear-gradient(0deg, rgba(19, 11, 9, 1), rgba(13, 0, 9, 0.7)), url("../images/footer.jpg") no-repeat center/cover;
+    background: linear-gradient(0deg, rgba(19, 11, 9, 1), rgba(13, 0, 9, 0.7)), url("../images/footer.webp") no-repeat center/cover;
     color: var(--highlight-color);
 }
 
