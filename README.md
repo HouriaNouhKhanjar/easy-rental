@@ -28,7 +28,24 @@ Discover a new way to save money, space, and time. Browse our tools, reserve onl
     * [Booking Page](#booking-page)
     * [Contact Supplier Page](#contact-supplier-page)
     * [Response Page](#response-page)
-  
+
+* [Technologies Used](#technologies-used)
+  * [Languages Used](#languages-used)
+  * [Frameworks, Libraries & Programs Used](#frameworks-libraries--programs-used)
+
+* [Deployment & Local Development](#deployment--local-development)
+  * [Deployment](#deployment)
+  * [Local Development](#local-development)
+    * [How to Fork](#how-to-fork)
+    * [How to Clone](#how-to-clone)
+
+* [Testing](#testing)
+
+* [Credits](#credits)
+  * [Code Used](#code-used)
+  * [Content](#content)
+  * [Media](#media)
+  * [Acknowledgments](#acknowledgments)
 
 - - - 
 
@@ -148,7 +165,93 @@ The Response page displays the folwing sections:
 
 - - -
 
+## Technologies Used
+
+### Languages Used
+
+HTML, CSS, Bootstrap, Javascript
+
+### Frameworks, Libraries & Programs Used
+
+* [Balsamiq](https://balsamiq.com/) - Used to create wireframes.
+
+* [Git](https://git-scm.com/) - For version control.
+
+* [Github](https://github.com/) - To save and store the files for the website.
+
+* [GitPod](https://gitpod.io/) - IDE used to create the site.
+
+* [Google Fonts](https://fonts.google.com/) - To import the fonts used on the website.
+
+* [Google Developer Tools](https://developers.google.com/web/tools) - To troubleshoot and test features, solve issues with responsiveness and styling.
+
+* [TinyPNG](https://tinypng.com/) To compress images
+
+* [Favicon.io](https://favicon.io/) To create favicon.
+
+* [Am I Responsive?](http://ami.responsivedesign.is/) To show the website image on a range of devices.
+
+- - -
+
+## Deployment & Local Development
+
+### Deployment
+
+The site is deployed using GitHub Pages - [Easy Rentals](https://hourianouhkhanjar.github.io/easy-rental/).
 
 
+### Local Development
+
+#### How to Fork
+
+To fork the repository:
+
+1. Go to the repository [HouriaNouhKhanjar/easy-rental](https://github.com/HouriaNouhKhanjar/easy-rental)
+2. Click the Fork button in the top right corner.
+
+#### How to Clone
+
+To clone the repository:
+
+1. Go to the repository [HouriaNouhKhanjar/easy-rental](https://github.com/HouriaNouhKhanjar/easy-rental)
+2. Click on the code button, and copy the link shown.
+3. Type 'git clone' into the terminal and then paste the link you copied.
+
+- - -
+
+## Testing
+
+Please refer to [TESTING.md](TESTING.md) file for all testing carried out.
 
 
+- - -
+
+## Credits
+
+### Code Used
+
+* I used [this Stackoverflow code](https://stackoverflow.com/questions/74585566/set-date-input-fields-minimum-date-to-today) To ensure that the rental date does not exceed a date before the current day, this validation rule is applied to the rental date field on the booking form.
+
+* I used [this JS code](https://jsfiddle.net/5ws33c8s/) To apply fade in animation on tool card and header text.
+
+* I used [this Stackoverflow code](https://stackoverflow.com/questions/51504463/fade-animation-while-scrolling) To apply the animation only when scrolling.
+
+
+### Content
+
+All tools information for my site were taken from [Amazon](https://www.amazon.de/).
+
+All other content for the site, such as introduction messages and instructions were written by myself.
+
+### Media
+
+* Background images were taken from [pexels](https://www.pexels.com/).
+* Tool sampel images were taken from [pinterest](https://de.pinterest.com/).
+
+### Acknowledgments
+
+I would like to acknowledge the following people:
+
+* Jubril Akolade - My Code Institute Mentor.
+
+* The Code Institute Course that prepared me to complete this project in the best possible way..
