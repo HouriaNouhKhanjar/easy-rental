@@ -266,7 +266,7 @@ footer {
 }
 
 #footer-contact-us .footer-container {
-    padding: 2rem;
+    padding: 2rem 1rem;
 }
 
 #footer-contact-us .support-contact {
@@ -332,7 +332,7 @@ footer {
     #footer-contact-us .footer-container {
         width: 90%;
         margin: auto;
-        padding: 3rem;
+        padding: 3rem 1rem;
     }
 }
 
@@ -368,11 +368,16 @@ footer {
     /* footer */
     #footer-contact-us .footer-container {
         width: 85%;
-        padding: 4rem;
+        padding: 4rem 1rem;
     }
 
     #footer-contact-us .contact-form {
-        padding: 2rem;
+        padding: 1rem;
+    }
+
+    .get-in-touch {
+        align-self: center;
+        text-align: center;
     }
 }
 
@@ -400,6 +405,6 @@ footer {
     /* footer */
     #footer-contact-us .footer-container {
         width: 75%;
-        padding: 5rem;
+        padding: 5rem 1rem;
     }
 }
