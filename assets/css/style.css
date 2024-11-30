@@ -73,6 +73,10 @@ h3 {
     animation: animate-fadein 3000ms 0ms forwards;
 }
 
+.required-input {
+    color: red;
+}
+
 /* Navbar */
 #navbar {
     background-color: var(--dark-color) !important;

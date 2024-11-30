@@ -93,16 +93,20 @@
                     <form action="response-page.html" method="GET" class="contact-form">
                         <h3 class="display-6">Do you have questions? Feel free to ask us</h3>
                         <div class="my-4">
-                            <label for="user-fullname" class="form-label">Full Name</label>
-                            <input type="text" class="form-control" name="user-fullname" id="user-fullname" required>
+                            <label for="user-fullname" class="form-label">Full Name <small
+                                    class="required-input">*</small></label>
+                            <input type="text" class="form-control" name="user-fullname" id="user-fullname"
+                                pattern=".*\S+.*" required>
                         </div>
                         <div class="my-4">
-                            <label for="user-email-address" class="form-label">Email address</label>
+                            <label for="user-email-address" class="form-label">Email address <small
+                                    class="required-input">*</small></label>
                             <input type="email" class="form-control" name="user-email-address" id="user-email-address"
-                                required>
+                                pattern=".*\S+.*" required>
                         </div>
                         <div class="my-4">
-                            <label for="user-message" class="form-label">Message</label>
+                            <label for="user-message" class="form-label">Message <small
+                                    class="required-input">*</small></label>
                             <textarea class="form-control" name="user-message" id="user-message" rows="3"
                                 required></textarea>
                         </div>
