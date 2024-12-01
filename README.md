@@ -131,6 +131,8 @@ The Home page displays the folwing sections:
 
 ![footer and contact form](assets/images/responsive-viewer-footer.webp)
 
+*The validation conditions that apply to the input fields are the required condition, email validation, and that white spaces are not allowed in text fields.*
+
 #### Booking Page
 
 The Booking page displays the folwing sections:
@@ -142,6 +144,8 @@ The Booking page displays the folwing sections:
 - **Booking form section**: Display a form allows user to enter his personal information in addition to the rental information. 
 ![booking form section](assets/images/responsive-viewer-booking-form.webp)
 
+*The validation conditions that apply to the input fields are the required condition, email validation, phonenummber validation, date validation, duration validation and that white spaces are not allowed in text fields.*
+
 #### Contact Supplier Page
 
 The Contact Supplier page displays the folwing sections:
@@ -152,6 +156,8 @@ The Contact Supplier page displays the folwing sections:
 
 - **Contact supplier form section**: Display a form allows user to enter his personal information, name of tool he will ask about and the question. 
 ![contact supplier form section](assets/images/responsive-viewer-contact-supplier-form.webp)
+
+*The validation conditions that apply to the input fields are the required condition, email validation, phonenummber validation and that white spaces are not allowed in text fields.*
 
 
 #### Response Page
@@ -235,6 +241,8 @@ Please refer to [TESTING.md](TESTING.md) file for all testing carried out.
 * I used [this JS code](https://jsfiddle.net/5ws33c8s/) To apply fade in animation on tool card and header text.
 
 * I used [this Stackoverflow code](https://stackoverflow.com/questions/51504463/fade-animation-while-scrolling) To apply the animation only when scrolling.
+
+* I used [this Stackoverflow code](https://stackoverflow.com/questions/13766015/is-it-possible-to-configure-a-required-field-to-ignore-white-space) To apply whitespace validation on text input.
 
 
 ### Content
