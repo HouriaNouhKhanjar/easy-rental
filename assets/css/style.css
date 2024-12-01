@@ -31,12 +31,12 @@
 
 /* Global styles */
 body {
-    font-family: var(--primary-font), sans-serif;
+    font-family: var(--primary-font, sans-serif), sans-serif;
 }
 
 h1,
 h2 {
-    font-family: var(--secondary-font), sans-serif;
+    font-family: var(--secondary-font, sans-serif), sans-serif;
     color: var(--primary-color);
 }
 

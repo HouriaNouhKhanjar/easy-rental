@@ -26,12 +26,12 @@ Visit the deployed site: [Easy Rental](https://hourianouhkhanjar.github.io/easy-
 
 [W3C](https://validator.w3.org/) was used to validate the HTML and CSS of the website.
 
-* [index.html]() - Passed.
-* [booking-page.html]() - Passed.
-* [contact-supplier-page.html]() - Passed.
-* [response-page.html]() - Passed.
+* index.html - Passed.
+* booking-page.html - Passed.
+* contact-supplier-page.html - Passed.
+* response-page.html - Passed.
 
-* [style.css]() - Passed, three warnings.
+* style.css - Passed, one warning its about the imported fonts.
 
 - - -
 
@@ -39,8 +39,8 @@ Visit the deployed site: [Easy Rental](https://hourianouhkhanjar.github.io/easy-
 
 [jshint](https://jshint.com/) was used to validate the JavaScript.
 
-* [main.js]() - Passed.
-* [animate.js]() - Passed
+* main.js - Passed.
+* animate.js - Passed
 
 - - -
 
@@ -56,13 +56,19 @@ I used Lighthouse within the Chrome Developer Tools to test the performance, acc
 
 ![booking-page.html](assets/images/testing-lighthouse-booking.webp)
 
+*The SEO evaluation is incomplete because the meta description is missing and logically the user should not reach this page without first selecting the tool.*
+
 **Contact supplier page**
 
 ![contact-supplier-page.html](assets/images/testing-lighthouse-contact-supplier-page.webp)
 
+*The SEO evaluation is incomplete because the meta description is missing and logically the user should not reach this page without first selecting the tool.*
+
 **Response page**
 
 ![response-page.html](assets/images/testing-lighthouse-response-page.webp)
+
+*The SEO evaluation is incomplete because the meta description is missing and logically the user should not reach this page without sending the request first.*
 
 - - -
 
