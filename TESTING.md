@@ -1,6 +1,6 @@
 # Easy Rental -  Testing
 
-![Easy Rental shown on a variety of screen sizes](assets/images/responsive-viewer-homepage.webp)
+![Easy Rental shown on a variety of screen sizes](testing/images/responsive-viewer-homepage.png)
 
 Visit the deployed site: [Easy Rental](https://hourianouhkhanjar.github.io/easy-rental/)
 
@@ -50,23 +50,23 @@ I used Lighthouse within the Chrome Developer Tools to test the performance, acc
 
 **Home page**
 
-![index.html](assets/images/testig-lighthouse-homepage.webp)
+![index.html](testing/images/testig-lighthouse-homepage.webp)
 
 **Booking page**
 
-![booking-page.html](assets/images/testing-lighthouse-booking.webp)
+![booking-page.html](testing/images/testing-lighthouse-booking.webp)
 
 *The SEO evaluation is incomplete because the meta description is missing and logically the user should not reach this page without first selecting the tool.*
 
 **Contact supplier page**
 
-![contact-supplier-page.html](assets/images/testing-lighthouse-contact-supplier-page.webp)
+![contact-supplier-page.html](testing/images/testing-lighthouse-contact-supplier-page.webp)
 
 *The SEO evaluation is incomplete because the meta description is missing and logically the user should not reach this page without first selecting the tool.*
 
 **Response page**
 
-![response-page.html](assets/images/testing-lighthouse-response-page.webp)
+![response-page.html](testing/images/testing-lighthouse-response-page.webp)
 
 *The SEO evaluation is incomplete because the meta description is missing and logically the user should not reach this page without sending the request first.*
 

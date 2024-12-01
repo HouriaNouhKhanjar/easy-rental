@@ -1,7 +1,7 @@
 # Project Planning Easy Rental
 Welcome to Easy Rentals – Your Trusted Tool Rental Platform
 
-![Easy Rental shown on a variety of screen sizes](assets/images/responsive-viewer-homepage.webp)
+![Easy Rental shown on a variety of screen sizes](testing/images/responsive-viewer-homepage.png)
 
 Visit the deployed site: [Easy Rental](https://hourianouhkhanjar.github.io/easy-rental/)
 
@@ -97,7 +97,7 @@ In my css file I have used variables to declare colours.
 * I have used `#222123` as background color for main section.
 * I have used `#edefea` & `#fffbf8` as background color for seconday section and plain text.
 
-![Color Scheme](assets/images/color-schema.webp)
+![Color Scheme](testing/images/color-schema.webp)
 
 ### Typography
 
@@ -121,15 +121,15 @@ The Home page displays the folwing sections:
 
 - **Header section:** A simple definition phrase and a button that when clicked takes the user to the tools list section. 
 
-![home page header](assets/images/responsive-viewer-homepage.webp)
+![home page header](testing/images/responsive-viewer-homepage.png)
 
 - **Tools section:** Each tool card contains a title, availability, location, price, and two button, "Rent Now" takes the user to booking page, and  "Contact Supplier" takes the user to contact supplier page. 
 
-![tools list section](assets/images/responsive-viewer-tools-list.webp)
+![tools list section](testing/images/responsive-viewer-tools-section.webp)
 
 - **Footer section and contact us form:** This section contains contacts information and support contact form.
 
-![footer and contact form](assets/images/responsive-viewer-footer.webp)
+![footer and contact form](testing/images/responsive-viewer-contact-support.webp)
 
 *The validation conditions that apply to the input fields are the required condition, email validation, and that white spaces are not allowed in text fields.*
 
@@ -139,10 +139,10 @@ The Booking page displays the folwing sections:
 
 - **Header section:** A continuation confirmation sentence for renting and a button that when clicked takes the user to booking form section. 
 
-![booking page header](assets/images/responsive-viewer-booking-page.webp)
+![booking page header](testing/images/responsive-viewer-renting-page.webp)
 
 - **Booking form section**: Display a form allows user to enter his personal information in addition to the rental information. 
-![booking form section](assets/images/responsive-viewer-booking-form.webp)
+![booking form section](testing/images/responsive-viewer-rental-form.webp)
 
 *The validation conditions that apply to the input fields are the required condition, email validation, phonenummber validation, date validation, duration validation and that white spaces are not allowed in text fields.*
 
@@ -152,10 +152,10 @@ The Contact Supplier page displays the folwing sections:
 
 - **Header section:** A continuation confirmation sentence and a button that when clicked takes the user to contact supplier form section. 
 
-![contact supplier page header](assets/images/responsive-viewer-contact-supplier-page.webp)
+![contact supplier page header](testing/images/responsive-viewer-contact-supplier-page.webp)
 
 - **Contact supplier form section**: Display a form allows user to enter his personal information, name of tool he will ask about and the question. 
-![contact supplier form section](assets/images/responsive-viewer-contact-supplier-form.webp)
+![contact supplier form section](testing/images/responsive-viewer-contact-supplier-form.webp)
 
 *The validation conditions that apply to the input fields are the required condition, email validation, phonenummber validation and that white spaces are not allowed in text fields.*
 
@@ -166,7 +166,7 @@ The Response page displays the folwing sections:
 
 - **Header section:** Contains a successful response sentence and a button to return to the home page.
 
-![response page header](assets/images/responsive-viewer-respone-page.webp)
+![response page header](testing/images/responsive-viewer-response-page.webp)
 
 
 - - -
