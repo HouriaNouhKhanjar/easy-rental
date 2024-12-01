@@ -93,8 +93,87 @@ I used Lighthouse within the Chrome Developer Tools to test the performance, acc
 |    I want to contact the support so I can ask question when a technical problem occurs | I designed a form to communicate with support in the footer of the page. It can be accessed easily and inquiries can be sent easily. |
 |  I want to contact the supplier so I can ask questions | The contact supplier page is designed so that the customer can ask a question about the tool very simply. All you have to do is enter the customer information, tool name, customer question and then send the request. |
 
+- - -
+
+### Full Testing
+
+Full testing was performed on the following devices:
+
+* Laptop:
+  * HP Laptop 17 2021
+* Mobile Devices:
+  * iPhone 14 pro max.
+  * samsung A53.
+
+Each device tested the site using the following browsers:
+
+* Google Chrome
+* Safari
 
 
+`Home Page`
+
+| Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
+| --- | --- | --- | --- | --- |
+| The Sites logo | Link directs the user back to the home page | Clicked logo | Home page reloads | Pass |
+| The Home link on Navbar | Link directs the user back to the home page | Clicked link | Home page reloads | Pass |
+| Tools link on Navbar | Displays the tool list | Clicked on link | Scroll to tools list on home page | Pass |
+| Contact us link on Navbar | Displays the contact us form | Clicked on link | Scroll to contact us form in the footer | Pass |
+| Start rentaing button | Displays the tool list | Clicked on button | Scroll to tools list on home page | Pass |
+| Rent Now button on tool's card | Directs the user to the rental page | Clicked on button | Load tool's rental page | Pass |
+| Contact Supplier button on tool's card |  Directs the user to the contact supplier page | Clicked on button | Load contact tool's supplier page | Pass |
+| Social media icon in the footer | Link user with social media pages | Clicked on icon | Open social media pages on new tab | Pass |
+| Send button on contact us form in the footer | Verifies the entered information and if it is found to be correct, the user is taken to the response page. | Clicked on button | Phrases are displayed to modify the fields in case something is entered incorrectly, and if all the fields meet the validation conditions, the response page is loaded. | Pass |
+| Button hover | Show an eye-catching effect to the user when the mouse approaches the button | Button hovering | Chane button style such as font or border color | Pass |
 
 
+<br>
+<br>
 
+`Rental Page`
+
+| Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
+| --- | --- | --- | --- | --- |
+| The Sites logo | Link directs the user back to the home page | Clicked logo | Home page reloads | Pass |
+| The Home link on Navbar | Link directs the user back to the home page | Clicked link | Home page reloads | Pass |
+| Tools link on Navbar | Displays the tool list | Clicked on link | Scroll to tools list on home page | Pass |
+| Contact us link on Navbar | Displays the contact us form | Clicked on link | Scroll to contact us form in the footer | Pass |
+| Continue Renting button |  Displays the rent form | Clicked on button | Scroll to rent form section | Pass |
+| Send button on rent form | Verifies the entered information and if it is found to be correct, the user is taken to the response page. | Clicked on button | Phrases are displayed to modify the fields in case something is entered incorrectly, and if all the fields meet the validation conditions, the response page is loaded. | Pass |
+| Social media icon in the footer | Link user with social media pages | Clicked on icon | Open social media pages on new tab | Pass |
+| Send button on contact us form in the footer | Verifies the entered information and if it is found to be correct, the user is taken to the response page. | Clicked on button | Phrases are displayed to modify the fields in case something is entered incorrectly, and if all the fields meet the validation conditions, the response page is loaded. | Pass |
+| Button hover | Show an eye-catching effect to the user when the mouse approaches the button | Button hovering | Chane button style such as font or border color | Pass |
+
+<br>
+<br>
+
+`Conact Supplier Page`
+
+| Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
+| --- | --- | --- | --- | --- |
+| The Sites logo | Link directs the user back to the home page | Clicked logo | Home page reloads | Pass |
+| The Home link on Navbar | Link directs the user back to the home page | Clicked link | Home page reloads | Pass |
+| Tools link on Navbar | Displays the tool list | Clicked on link | Scroll to tools list on home page | Pass |
+| Contact us link on Navbar | Displays the contact us form | Clicked on link | Scroll to contact us form in the footer | Pass |
+| Continue to contact form button |  Displays the contact supplier form | Clicked on button | Scroll to contact supplier form section | Pass |
+| Send button on contact supplier form | Verifies the entered information and if it is found to be correct, the user is taken to the response page. | Clicked on button | Phrases are displayed to modify the fields in case something is entered incorrectly, and if all the fields meet the validation conditions, the response page is loaded. | Pass |
+| Social media icon in the footer | Link user with social media pages | Clicked on icon | Open social media pages on new tab | Pass |
+| Send button on contact us form in the footer | Verifies the entered information and if it is found to be correct, the user is taken to the response page. | Clicked on button | Phrases are displayed to modify the fields in case something is entered incorrectly, and if all the fields meet the validation conditions, the response page is loaded. | Pass |
+| Button hover | Show an eye-catching effect to the user when the mouse approaches the button | Button hovering | Chane button style such as font or border color | Pass |
+
+
+<br>
+<br>
+
+`Response Page`
+
+| Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
+| --- | --- | --- | --- | --- |
+| The Sites logo | Link directs the user back to the home page | Clicked logo | Home page reloads | Pass |
+| The Home link on Navbar | Link directs the user back to the home page | Clicked link | Home page reloads | Pass |
+| Tools link on Navbar | Displays the tool list | Clicked on link | Scroll to tools list on home page | Pass |
+| Contact us link on Navbar | Displays the contact us form | Clicked on link | Scroll to contact us form in the footer | Pass |
+| Go to Homepage button | Link directs the user back to the home page | Clicked button | Home page reloads | Pass |
+| Social media icon in the footer | Link user with social media pages | Clicked on icon | Open social media pages on new tab | Pass |
+| Send button on contact us form in the footer | Verifies the entered information and if it is found to be correct, the user is taken to the response page. | Clicked on button | Phrases are displayed to modify the fields in case something is entered incorrectly, and if all the fields meet the validation conditions, the response page is loaded. | Pass |
+| Button hover | Show an eye-catching effect to the user when the mouse approaches the button | Button hovering | Chane button style such as font or border color | Pass |
