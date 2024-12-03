@@ -23,6 +23,8 @@ Discover a new way to save money, space, and time. Browse our tools, reserve onl
 * [Design](#design)
   * [Colour Scheme](#colour-scheme)
   * [Typography](#typography)
+  * [Imagery](#imagery)
+  * [Wireframes](#wireframes)
   * [Features](#features)
     * [Home Page](#home-page)
     * [Booking Page](#booking-page)
@@ -108,6 +110,24 @@ Google Fonts was used to import the chosen fonts for use in the site.
 * For the body of the page I have used the google font [Oswald](https://fonts.google.com/specimen/Oswald).
 
 These fonts would provide a strong balance of readability and professionalism on a tool rental website.
+
+### Imagery
+
+Since the website aims to rent electrical, electronic or other tools for maintenance or construction work, I chose pictures of people using tools for different purposes as background images.
+This could be as if the user, when visiting the website, is visiting a workshop from which he can boborrow the tools he needs and when he is finished, return them to their place.
+
+### Wireframes
+
+Wireframes were created for mobile, tablet and desktop using balsamiq.
+
+![Home Page](testing/images/homepage-wireframe.webp)
+![Home Page Mobile](testing/images/homepage-mobile-wireframe.webp)
+![Rental Page](testing/images/rent-form-wireframe.webp)
+![Rental Page Mobile](testing/images/rent-form-mobile-wireframe.webp)
+![Contact Supplier Page](testing/images/contact-supplier-form-wireframe.webp)
+![Contact Supplier Page Mobile](testing/images/contact-supplier-form-mobile-wireframe.webp)
+![Response Page](testing/images/response-wireframe.webp)
+![Response Page Mobile](testing/images/respone-mobile-wireframe.webp)
 
 ### Features
 
